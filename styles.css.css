@@ -1,0 +1,27 @@
+/* styles.css */
+
+/* Keyframes for animation */
+@keyframes textAnimation {
+    0% { color: rgb(153, 142, 61); font-size: 20px; }
+    50% { color: rgb(201, 201, 207); font-size: 30px; }
+    100% { color: rgb(124, 212, 124); font-size: 20px; }
+}
+
+/* Applying the animation to the text */
+.animated-text {
+    display: inline-block;
+    animation: textAnimation 3s ;
+}
+
+/* styles.css */
+
+@keyframes fade {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+.fading-text {
+    display: inline-block;
+    animation: fade 2s infinite;
+}
